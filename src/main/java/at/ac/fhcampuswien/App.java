@@ -29,6 +29,12 @@ public class App {
     //todo Task 3
     public void sumOfLiterals(){
         // input your solution here
+        char x;
+        float y;
+        long d;
+
+
+
     }
 
     //todo Task 4
@@ -39,6 +45,7 @@ public class App {
         int y = scanner.nextInt();
 
         System.out.println(x);
+        System.out.println(y);
     }
 
     //todo Task 5
