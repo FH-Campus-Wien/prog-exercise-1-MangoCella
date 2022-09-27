@@ -7,11 +7,23 @@ public class App {
     //todo Task 1
     public void sayHelloWorld(){
         // input your solution here
+        System.out.println("Hello World!");
     }
 
     //todo Task 2
     public void helloRobot(){
         // input your solution here
+        System.out.print(
+                "0123456789012345678901" + System.lineSeparator() +
+                "         __" + System.lineSeparator() +
+                " _(\\    |@@|" + System.lineSeparator() +
+                "(__/\\__ \\--/ __" + System.lineSeparator() +
+                "   \\___|----|  |   __" + System.lineSeparator() +
+                "       \\ }{ /\\ )_ / _\\" + System.lineSeparator() +
+                "       /\\__/\\ \\__O (__" + System.lineSeparator() +
+                "      (--/\\--)    \\__/" + System.lineSeparator() +
+                "      _)(  )(_" + System.lineSeparator() +
+                "     `---''---`" + System.lineSeparator());
     }
 
     //todo Task 3
@@ -22,6 +34,11 @@ public class App {
     //todo Task 4
     public void addTwoNumbers(){
         // input your solution here
+        Scanner scanner = new Scanner(System.in);
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
+
+        System.out.println(x);
     }
 
     //todo Task 5
