@@ -178,6 +178,9 @@ public class App {
     //todo Task 10
     public void transposedNumbers(){
         // input your solution here
+        /** https://www.programiz.com/java-programming/examples/reverse-number
+         *
+         */
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
 
@@ -191,7 +194,7 @@ public class App {
             num = num/10;
         }
         System.out.println("Number: " + rev);
-        //System.out.print(rev);
+
 
     }
 
