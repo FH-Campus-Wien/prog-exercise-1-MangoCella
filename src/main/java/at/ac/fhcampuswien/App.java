@@ -178,27 +178,21 @@ public class App {
     //todo Task 10
     public void transposedNumbers(){
         // input your solution here
-        System.out.print("Number: ");
         Scanner scanner = new Scanner(System.in);
-        int dreistellig = scanner.nextInt();
+        int num = scanner.nextInt();
 
-        int hunderter = dreistellig/100;
-        int einser = dreistellig%10;
-        int zehner = dreistellig%100/10;
+        int rev = 0; // reversed number
+        int rem;   // remainder
 
-        System.out.print(einser);
-        System.out.print(zehner);
-        System.out.println(hunderter);
+        while(num>0){
 
-        //int n = 0;
-        //int rev = 0; // reversed number
-        ////while(n>0){
+            rem = num%10;
+            rev = (rev*10) + rem;
+            num = num/10;
+        }
+        System.out.println("Number: " + rev);
+        //System.out.print(rev);
 
-           // rem = n%10;
-            //n = n/10;
-            //rev = (rev*10) + rem;
-       // }
-       // System.out.print("Number: "+ rev);
     }
 
     public static void main(String[] args){
